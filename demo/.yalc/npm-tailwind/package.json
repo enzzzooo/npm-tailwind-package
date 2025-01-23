@@ -2,6 +2,7 @@
   "name": "npm-tailwind",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup",
     "lp": "npm run build && yalc push"
@@ -14,5 +15,5 @@
   "license": "ISC",
   "description": "",
   "dependencies": {},
-  "yalcSig": "c3026020a5aff8fe4b63deccba4611f3"
+  "yalcSig": "d17c8da36d4c6d6057dc79b5d106aef9"
 }
