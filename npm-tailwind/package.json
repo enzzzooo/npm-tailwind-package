@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "lp": "npm run build && yalc push"
   },
   "type": "module",
   "keywords": [],
