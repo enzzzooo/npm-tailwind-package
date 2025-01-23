@@ -157,8 +157,8 @@ var require_react_production = __commonJS({
       });
     }
     var userProvidedKeyEscapeRegex = /\/+/g;
-    function getElementKey(element, index2) {
-      return "object" === typeof element && null !== element && null != element.key ? escape("" + element.key) : index2.toString(36);
+    function getElementKey(element, index) {
+      return "object" === typeof element && null !== element && null != element.key ? escape("" + element.key) : index.toString(36);
     }
     function noop$1() {
     }
@@ -927,8 +927,8 @@ var require_react_development = __commonJS({
           return escaperLookup[match];
         });
       }
-      function getElementKey(element, index2) {
-        return "object" === typeof element && null !== element && null != element.key ? (checkKeyStringCoercion(element.key), escape("" + element.key)) : index2.toString(36);
+      function getElementKey(element, index) {
+        return "object" === typeof element && null !== element && null != element.key ? (checkKeyStringCoercion(element.key), escape("" + element.key)) : index.toString(36);
       }
       function noop$1() {
       }
@@ -2073,11 +2073,11 @@ var require_jsx_runtime = __commonJS({
 // src/index.tsx
 var index_exports = {};
 __export(index_exports, {
-  default: () => index
+  default: () => Index
 });
 module.exports = __toCommonJS(index_exports);
 var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
-function index() {
+function Index() {
   return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "bg-blue-700 text-indigo-400 dark:bg-green-200 dark:text-gray-400", children: "hiii" });
 }
 /*! Bundled license information:

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "lp": "npm run build && yalc push"
   },
   "type": "module",
   "keywords": [],
@@ -11,5 +12,5 @@
   "license": "ISC",
   "description": "",
   "dependencies": {},
-  "yalcSig": "508405fe28eb6d176f64861e1c5c6dc5"
+  "yalcSig": "72f78ea95858664136b1b279cb900626"
 }
