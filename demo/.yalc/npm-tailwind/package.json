@@ -1,0 +1,15 @@
+{
+  "name": "npm-tailwind",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {},
+  "yalcSig": "508405fe28eb6d176f64861e1c5c6dc5"
+}
