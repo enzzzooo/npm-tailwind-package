@@ -2076,9 +2076,9 @@ __export(index_exports, {
   default: () => index
 });
 module.exports = __toCommonJS(index_exports);
-var import_jsx_runtime = __toESM(require_jsx_runtime());
+var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
 function index() {
-  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "bg-blue-700, text-indigo-400", children: "hiii" });
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "bg-blue-700 text-indigo-400 dark:bg-green-200 dark:text-gray-400", children: "hiii" });
 }
 /*! Bundled license information:
 
@@ -2126,4 +2126,4 @@ react/cjs/react-jsx-runtime.development.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.cjs.map
