@@ -1,4 +1,6 @@
+import "npm-tailwind/dist/index.css";
 import Index from "npm-tailwind";
+
 import Image from "next/image";
 
 export default function Home() {

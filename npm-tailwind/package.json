@@ -7,7 +7,7 @@
     "lp": "npm run build && yalc push"
   },
   "type": "module",
-  "keywords": [],
+  "keywords": ["test"],
   "author": "",
   "license": "ISC",
   "description": "",
